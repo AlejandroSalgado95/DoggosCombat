@@ -1,2 +1,2 @@
 # DoggosCombat
-This is a top down shooter prototype for android
+Utiliza la version 2018.2.10 de Unity para abrir este proyecto
