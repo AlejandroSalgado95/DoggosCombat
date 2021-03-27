@@ -1,0 +1,169 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1652334849855748}
+  m_IsPrefabAsset: 1
+--- !u!1 &1652334849855748
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4001303806949820}
+  - component: {fileID: 114042989975583922}
+  m_Layer: 0
+  m_Name: GameWarehouse
+  m_TagString: GameWarehouse
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4001303806949820
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1652334849855748}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 230.7749, y: 123.50264, z: 2.53302}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114042989975583922
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1652334849855748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d37e1eaab8a7e514b8c8e1b388e4c23f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  acquirablesArray:
+  - {fileID: 177730, guid: 024d2b9a7ee1909468ebbb4b7030e23d, type: 2}
+  - {fileID: 106512, guid: ca0133ab626fcb94ca4d9db3d4f6f232, type: 2}
+  - {fileID: 134716, guid: df408d20e2923ba4686e31a5c5c83ba5, type: 2}
+  - {fileID: 127332, guid: fe24fe8bfbf5c1b4d82c87919fb1f2aa, type: 2}
+  - {fileID: 191214, guid: 1b3ac9fca7c46f648a6478548e526044, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 136058, guid: 4f8bfe10d905e94489109af251808614, type: 2}
+  - {fileID: 123696, guid: 8e0bf0b4aae3a4a44821d2435561deb6, type: 2}
+  - {fileID: 172930, guid: a7a208a7f4efb8a47ab845ed28f5f95b, type: 2}
+  - {fileID: 103412, guid: bf431098fb7d9f84ea5588785811c879, type: 2}
+  - {fileID: 194472, guid: c57be0218206cb347a3f7d3dd3699024, type: 2}
+  - {fileID: 168034, guid: f1239c41c5b041c47afa79c069b17cd6, type: 2}
+  - {fileID: 179990, guid: 937f1a41ea5cf4b4bb69504ada022b4e, type: 2}
+  - {fileID: 129618, guid: 1a65f9561ccd11d4898af03372feb125, type: 2}
+  - {fileID: 122128, guid: bb68b975d0bbb464aa3deace2cf886ea, type: 2}
+  - {fileID: 163794, guid: 584e78fb9583848479962104050a1a1f, type: 2}
+  - {fileID: 137890, guid: 668e810bff9882644a4f823845ea2a4c, type: 2}
+  - {fileID: 103146, guid: 07fefbd9837ae8c4e8e5d490e15697ac, type: 2}
+  - {fileID: 129594, guid: f3bef81ba69654848b0f612f4d31bded, type: 2}
+  - {fileID: 111430, guid: 85cc8af63a231b3478e56bb38c551dc9, type: 2}
+  - {fileID: 168830, guid: b0a4a7df005dce24f8c023b67bfd1219, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  charactersArray:
+  - {fileID: 117724, guid: 3b8c4b4de475a91488cd7e22095dc41a, type: 2}
+  enemiesArray:
+  - {fileID: 176300, guid: e171ca939471f7645ae641d9437aa7e3, type: 2}
+  - {fileID: 140702, guid: 7ff78d0d83cf3f74dac6fa44a8df0eed, type: 2}
+  itemsArray:
+  - {fileID: 1036468999751150, guid: f35a97894b25264419660352975fd23b, type: 2}
+  - {fileID: 1862988691224926, guid: 3621aba842667924a9055d23c5133ba3, type: 2}
+  - {fileID: 1789272373057260, guid: 1ce10b3f88c6ed547a1e31e8e7a57c1a, type: 2}
+  - {fileID: 1499164888812162, guid: f831c69b0742a5342b637da5e9ed651c, type: 2}
+  - {fileID: 1118256126169688, guid: 43d4b33d7163c0146b4f524e1549b563, type: 2}
+  - {fileID: 1029310408415412, guid: f7cfad99a9971934db1004dc7b3c09d8, type: 2}
+  playableAreasArray: []
+  acSprites:
+  - {fileID: 21300000, guid: ca5ed3f2b94ff7b47b71d99f71219cef, type: 3}
+  - {fileID: 21300000, guid: bc26288607bb51e428137e56714667cf, type: 3}
+  - {fileID: 21300000, guid: 7d1719a9ff37bb4449c9cfd587dd9deb, type: 3}
+  - {fileID: 21300000, guid: d20dd4b1573c68247a668fc0f2cf49d7, type: 3}
+  - {fileID: 21300000, guid: cba6c1b66dbd409409c0c2c1fab830b7, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 21300000, guid: 8e9dcf79391b93e49af8813e8898cff8, type: 3}
+  - {fileID: 21300000, guid: 6bbafed6343cd4945bc9d46bcd8160a0, type: 3}
+  - {fileID: 21300000, guid: d8f9d60d58b8a154b8fe7aa54775bf91, type: 3}
+  - {fileID: 21300000, guid: 616f1ff5321cfa34b8870a1130c290a6, type: 3}
+  - {fileID: 21300000, guid: 0f8d5f84b5deed44ab21c464d5ae1dbb, type: 3}
+  - {fileID: 21300000, guid: 9fd60f5270760be4baeecda3f42fdb22, type: 3}
+  - {fileID: 21300000, guid: 4123891258c46e040bb38746c3b1eaf8, type: 3}
+  - {fileID: 21300000, guid: 84b428464cf6c38458b4fbf05e4579f8, type: 3}
+  - {fileID: 21300000, guid: bb0af478dcd68f74683812662dbd72c0, type: 3}
+  - {fileID: 21300000, guid: 771299bd7e02a6946bfc97539c4bf842, type: 3}
+  - {fileID: 21300000, guid: dd85a88ca75674b4aa4ab9688f6ad6b9, type: 3}
+  - {fileID: 21300000, guid: e1ec6b5eee93f504a95e54737b553a9d, type: 3}
+  - {fileID: 21300000, guid: e2ca3d68127b0e54596a25fb65c343fe, type: 3}
+  - {fileID: 21300000, guid: 9dcb7e1c0b7cea74e8f9aeaaf88725a1, type: 3}
+  - {fileID: 21300000, guid: c26b313b560588447a2d0d3814717cdc, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  charSprites: []
